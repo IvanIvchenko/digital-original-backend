@@ -12,16 +12,16 @@ Front-end application will consist of such pages:
 
 ## Task
 Your task is to create an endpoint that retrieves data for the **Single Art Asset Page**. The relevant part of the database tables is stored in `db/db.sql`. The required data includes:
-  1. Art Asset details:
+1. Art Asset details:
     - original name
     - english name
     - description
     - price
     - files' filename on disk
-  2. Information related to the Artists associated with the Art Asset:
+2. Information related to the Artists associated with the Art Asset:
     - name
     - photo (filename on disk)
-  3. Details of 4 Art Assets from an Artist associated with the primary Art Asset:
+3. Details of 4 Art Assets from an Artist associated with the primary Art Asset:
     - original name
 
 ## Requirements
