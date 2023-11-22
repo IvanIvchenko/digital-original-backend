@@ -1,6 +1,4 @@
 ## Intro
-Assume that you are participating in creation of a big platform, which consists of some number of clients web-sites, services including blockchain one and complexed database. Now you are focused to connect your back-end with front-end application `market`.
-
 Imagine you are contributing to the development of a large-scale platform, which consists of various client websites, services (including a **blockchain** component), and a comprehensive database. Your current focus is on integrating the backend with the `market` front-end application.
 
 Front-end application will consist of such pages:
