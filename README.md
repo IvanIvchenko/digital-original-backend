@@ -11,7 +11,6 @@ Front-end application will consist of such pages:
 - **Contacts page**
 
 ## Task
-Create endpoint to retrieve data for single Art Asset page. Part of database tables stored in `db/db.sql` Data required:
 Your task is to create an endpoint that retrieves data for the **Single Art Asset Page**. The relevant part of the database tables is stored in `db/db.sql`. The required data includes:
   1. Art Asset details:
     - original name
