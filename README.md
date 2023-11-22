@@ -17,10 +17,10 @@ Your task is to create an endpoint that retrieves data for the **Single Art Asse
     - english name
     - description
     - price
-    - files' filename on disk
+    - filename of the files on the disk (`filename_disk`)
 2. Information related to the Artists associated with the Art Asset:
     - name
-    - photo (filename on disk)
+    - filename of photo (`filename_disk`)
 3. Details of 4 Art Assets from an Artist associated with the primary Art Asset:
     - original name
 
