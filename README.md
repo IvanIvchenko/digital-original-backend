@@ -11,7 +11,7 @@ Front-end application will consist of such pages:
 - **Contacts page**
 
 ## Task
-Your task is to create an endpoint that retrieves data for the **Single Art Asset Page**. The relevant part of the database tables is stored in `db/db.sql`. The required data includes:
+Your task is to develop functionality to retrieve data for the **Single Art Asset Page**. The relevant part of the database tables is stored in `db/db.sql`. The data required for the page must include:
 1. Art Asset details:
     - original name
     - english name
@@ -21,7 +21,7 @@ Your task is to create an endpoint that retrieves data for the **Single Art Asse
 2. Information related to the Artists associated with the Art Asset:
     - name
     - filename of photo (`filename_disk`)
-3. Details of 4 Art Assets from an Artist associated with the primary Art Asset:
+3. Details of 4 Art Assets from an Artist associated with the primary Art Asset (for block _'More from artist'_):
     - original name
 
 ## Requirements
