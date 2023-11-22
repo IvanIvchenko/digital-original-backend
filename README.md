@@ -30,4 +30,4 @@ Your task is to develop functionality to retrieve data for the **Single Art Asse
 3. PostgreSQL
 
 #### Considered a plus if you can:
-Execute raw database queries or utilize [Knex.js](https://knexjs.org/)# backend
+Execute raw database queries or utilize [Knex.js](https://knexjs.org/) backend
