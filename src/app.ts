@@ -23,8 +23,9 @@ knex.raw("SELECT 1")
   .then(() => {
     console.log('Connection has been established successfully.');
   })
-  .catch(() => {
+  .catch((err) => {
     console.error('Unable to connect to the database');
+    console.error(err)
   });
 
 app.use((req, res, next) => {
@@ -45,7 +46,7 @@ app.use((req, res, next) => {
 
 app.use(errorHandler);
 
-const APP_PORT = process.env.PORT || 4000;
+const APP_PORT = process.env.PORT || 3000;
 const APP_HOST = process.env.HOST || 'localhost';
 
 const server = http.createServer(app);

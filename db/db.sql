@@ -2,11 +2,11 @@
 CREATE TABLE public.artists (
     id SERIAL PRIMARY KEY,
     name character varying(255) NOT NULL,
-    photo uuid,
+    photo uuid REFERENCES public.files(id),
     biography json,
     gender character varying(255),
     alive boolean DEFAULT true NOT NULL,
-    addresses character varying(1000),
+    addresses character varying(1000)
 );
 
 -- Creating art_assets table
@@ -20,7 +20,7 @@ CREATE TABLE public.art_assets (
     size_x numeric(10,5),
     size_y numeric(10,5),
     size_z numeric(10,5),
-    price numeric(15,5),
+    price numeric(15,5)
 );
 
 -- Creating files table
@@ -48,5 +48,5 @@ CREATE TABLE public.artists_art_assets (
 CREATE TABLE public.art_assets_files (
     id SERIAL PRIMARY KEY,
     art_assets_id integer REFERENCES public.art_assets(id),
-    files_id uuid REFERENCES public.directus_files(id)
+    files_id uuid REFERENCES public.files(id)
 );

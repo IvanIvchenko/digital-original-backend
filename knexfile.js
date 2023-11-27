@@ -1,13 +1,12 @@
 // Update with your config settings.
-
 module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      host: process.env.DB_HOST,
-      database: process.env.DB_NAME,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASS,
+      host: process.env.DB_DEV_HOST,
+      database: process.env.DB_DEV_NAME,
+      user: process.env.DB_DEV_USERNAME,
+      password: process.env.DB_DEV_PASSWORD,
     },
     pool: {
       min: 2,
