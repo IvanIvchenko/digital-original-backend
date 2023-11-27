@@ -1,11 +1,11 @@
 import { knex } from 'config/db'
-import { Artist } from 'utils/interfaces';
+import { ArtAsset } from 'utils/interfaces';
 import { ResponseError } from 'utils/responseError';
 
 export class ArtAssetService {
-  async findOne(id: number): Promise<Artist> {
+  async findOne(id: number): Promise<ArtAsset> {
     const artAsset = await knex
-    .select<Artist>(
+    .select<ArtAsset>(
       'art_assets_main.name_original as name_original',
       'art_assets_main.name_english as name_english',
       'art_assets_main.description',
