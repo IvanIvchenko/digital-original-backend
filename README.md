@@ -53,6 +53,7 @@ files_id uuid REFERENCES public.directus_files(id) <--- Here, I've assumed that 
 ## Response
 It should look something like this:
 
+```json
 {
     "name_original": "Starry Night",
     "name_english": "Starry Night",
@@ -75,6 +76,7 @@ It should look something like this:
         }
     ]
 }
+```
 
 ## Boot
 You can run it in two different ways:
